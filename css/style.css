@@ -185,7 +185,8 @@ footer {
 
 table {
   display: inline-block;
-  margin-top: 20px
+  margin-top: -10px;
+  margin-bottom: 0px;
 }
 
 #search::-webkit-search-cancel-button {
@@ -201,8 +202,8 @@ table {
   input {
     height: 50px;
     width: 100%;
-    margin-bottom: 50px;
-    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-top: 10px;
   }
   input:focus {
     outline: none !important;
