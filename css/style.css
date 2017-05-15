@@ -38,7 +38,6 @@ section {
   height: 514px;
   width: 320px;
   padding: 0;
-  margin-bottom: 0px;
   background-color: #F5F5F6;
   overflow-x: hidden;
 }
@@ -186,8 +185,8 @@ footer {
 
 table {
   display: inline-block;
-  margin-top: -13px;
-  margin-bottom: -9px;
+  margin-top: -10px;
+  margin-bottom: 0px;
 }
 
 #search::-webkit-search-cancel-button {
@@ -201,10 +200,10 @@ table {
 
 @media only screen and (max-width: 480px) {
   input {
-    height: 40px;
+    height: 50px;
     width: 100%;
-    margin-bottom: 4px;
-    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-top: 10px;
   }
   input:focus {
     outline: none !important;
